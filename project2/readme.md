@@ -1,7 +1,7 @@
 <h1>Project 2 Files</h1>
 <pre>
 -index.html
---/style.css
+-style.css
 --/resume
 ----/index.html
 --/specs
