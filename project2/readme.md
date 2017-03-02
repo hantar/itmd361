@@ -1,7 +1,11 @@
-<h2>Project 2</h2>
-
+<h1>Project 1 Files</h1>
 <pre>
-To
-  be
-    updated
+-index.html
+-/resume
+---/index.html
+-/specs
+---/index.html
+-/img
+---/me.jpg
+---/pc.jpg
 </pre>
