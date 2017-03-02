@@ -11,6 +11,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PC Setup &bull; Hidra Antar</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
@@ -18,81 +19,91 @@
 		<!-- Navigation Bar -->
 		<nav>
 			<a href="../">Home</a>
-			<a href="#">PC Setup</a>
+			<a href="#" class="selected">PC Setup</a>
 			<a href="../resume">Resume</a>
 		</nav>
 	</header>
-	<section>
-		<h3>PC Specs:</h3>
-		<ul>
-			<li>OS
-				<ul>
-					<li>Windows 10 Education 64-Bit</li>
-				</ul>
-			</li>
-			<li>CPU
-				<ul>
-					<li>Intel i7-6800K (3.4Ghz 6-Core Broadwell-E)</li>
-				</ul>
-			</li>
-			<li>RAM
-				<ul>
-					<li>Corsair Vengeance LPX 32GB</li>
-				</ul>
-			</li>
-			<li>Motherboard
-				<ul>
-					<li>Asus X99-A II (LGA2011-3)</li>
-				</ul>
-			</li>
-			<li>Monitors
-				<ul>
-					<li>Samsung 27" IPS (S27D390)</li>
-					<li>Asus 27" 2K 144Hz IPS (MG279Q)</li>
-				</ul>
-			</li>
-			<li>GPU
-				<ul>
-					<li>Sapphire Radeon R9 290X 4GB</li>
-				</ul>
-			</li>
-			<li>Storage
-				<ul>
-					<li>Samsung 960 PRO 512GB SSD (OS/PROGRAMS)</li>
-					<li>Intel 240GB SSD (GAMES)</li>
-					<li>Samsung 1TB HDD (USER/GENERAL)</li>
-					<li>Seagate 4TB HDD (EDITING/MEDIA)</li>
-				</ul>
-			</li>
-			<li>Case
-				<ul>
-					<li>Cooler Master HAF X Full Tower</li>
-				</ul>
-			</li>
-			<li>Keyboard
-				<ul>
-					<li>Razer BlackWidow X Chroma</li>
-				</ul>
-			</li>
-			<li>Mouse
-				<ul>
-					<li>Razer Mamba</li>
-				</ul>
-			</li>
-			<li>Speakers
-				<ul>
-					<li>Harman Kardon SoundSticks III</li>
-				</ul>
-			</li>
-		</ul>
-	</section>
-	<aside>
-		<!-- FIXME: Sidebar CSS -->
-		<figure>
-			<img src="/img/pc.jpg" title="My PC" alt="PC Setup" />
-			<figcaption>PC Setup with LED lights!</figcaption>
-		</figure>
-	</aside>
+	<div id="container">
+		<div class="twoColumn pushDown">
+			<div class="left">
+				<section>
+					<h3 id="PCHeadline">PC Specs:</h3>
+					<div id="specList">
+						<ul>
+							<li>OS
+								<ul>
+									<li>Windows 10 Education 64-Bit</li>
+								</ul>
+							</li>
+							<li>CPU
+								<ul>
+									<li>Intel i7-6800K (3.4Ghz 6-Core Broadwell-E)</li>
+								</ul>
+							</li>
+							<li>RAM
+								<ul>
+									<li>Corsair Vengeance LPX 32GB</li>
+								</ul>
+							</li>
+							<li>Motherboard
+								<ul>
+									<li>Asus X99-A II (LGA2011-3)</li>
+								</ul>
+							</li>
+							<li>Monitors
+								<ul>
+									<li>Samsung 27" IPS (S27D390)</li>
+									<li>Asus 27" 2K 144Hz IPS (MG279Q)</li>
+								</ul>
+							</li>
+							<li>GPU
+								<ul>
+									<li>Sapphire Radeon R9 290X 4GB</li>
+								</ul>
+							</li>
+							<li>Storage
+								<ul>
+									<li>Samsung 960 PRO 512GB SSD (OS/PROGRAMS)</li>
+									<li>Intel 240GB SSD (GAMES)</li>
+									<li>Samsung 1TB HDD (USER/GENERAL)</li>
+									<li>Seagate 4TB HDD (EDITING/MEDIA)</li>
+								</ul>
+							</li>
+							<li>Case
+								<ul>
+									<li>Cooler Master HAF X Full Tower</li>
+								</ul>
+							</li>
+							<li>Keyboard
+								<ul>
+									<li>Razer BlackWidow X Chroma</li>
+								</ul>
+							</li>
+							<li>Mouse
+								<ul>
+									<li>Razer Mamba</li>
+								</ul>
+							</li>
+							<li>Speakers
+								<ul>
+									<li>Harman Kardon SoundSticks III</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="right">
+				<aside>
+					<!-- FIXME: Sidebar CSS -->
+					<figure>
+						<img src="/img/pc.jpg" title="My PC" alt="PC Setup" />
+						<figcaption>PC Setup with LED lights!</figcaption>
+					</figure>
+				</aside>
+			</div>
+		</div>
+	</div>
 	<footer>
 		<!-- Footer and Contact Info -->
 		<p>Created by Hidra Antar</p>
