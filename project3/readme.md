@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<h1>Project 2 Files</h1>
+<h1>Project 3 - Javascript</h1>
 <pre>
 -index.html
 -style.css
@@ -11,6 +10,3 @@
 ----/me.jpg
 ----/pc.jpg
 </pre>
-=======
-# Project 3 - Javascript
->>>>>>> origin/master
