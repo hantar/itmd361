@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Project 2 Files</h1>
 <pre>
 -index.html
@@ -10,3 +11,6 @@
 ----/me.jpg
 ----/pc.jpg
 </pre>
+=======
+# Project 3 - Javascript
+>>>>>>> origin/master
