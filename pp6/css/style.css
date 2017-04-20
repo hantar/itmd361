@@ -1,0 +1,52 @@
+/*start your css here*/
+#main-navbar {
+	background: blue;
+	overflow: hidden;
+}
+
+#navbar-container {
+	left: 50%;
+	right: 50%;
+	position: relative;
+	padding: 10px 20px;
+}
+
+#sidebar {
+	position: fixed;
+	right: 0%;
+	background: red;
+	height: 100%;
+	width: 20%;
+	text-align: center;
+	padding: 0;
+	display: block;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#main-navbar li {
+	float: left;
+}
+
+#main-navbar a {
+	display: block;
+	padding: 10px;
+}
+
+#onpage {
+	text-decoration: underline overline;
+}
+
+#sidebar li {
+	padding-top: 25px;
+}
