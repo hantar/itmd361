@@ -132,3 +132,8 @@ span.edu {
 .pushDown {
 	padding-top: 25px;
 }
+
+#map {
+	height: 400px;
+	width: 800px;
+}

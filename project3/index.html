@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- NOTE: https://dkriegls.github.io/itmd-361-spring2017/syllabus/projects.html -->
-<!-- NOTE: No CSS, no <br>, no tables, or any other layout tags -->
-<!-- TODO: HTML5 tags -->
-<!-- FUTURE: Check W3C Validator -->
-<!-- IDEA: HTML5 Game for page 3? -->
-<!-- IDEA: style <ul> and insert visuals to the list -->
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +12,8 @@
 		<!-- Navigation Bar -->
 		<nav>
 			<a href="#" class="selected">Home</a>
-			<a href="./specs">PC Setup</a>
-			<a href="./resume">Resume</a>
+			<a href="specs.html">PC Setup</a>
+			<a href="resume.html">Resume</a>
 		</nav>
 	</header>
 	<div id="container">
@@ -32,14 +25,17 @@
 		<article>
 			<!-- About Me -->
 			<h3>Let's Talk!</h3>
-			<p>I am 20 years old and live in the north suburbs of Chicago. I drive to school Monday through Thursday and listen to music to dull my anger for the traffic. I got my first computer at the age of seven and have since been learning about computers. I play video games (PS4 > Xbox One) like Rainbow Six Siege, Call of Duty, Battlefield, and Rocket League. I'm more of a competitive player than casual. I have about six years of graphic design experience with Photoshop and Illustrator. I do graphic design as a hobby and sometimes make money on the side from it. Teaching myself video editing as well using After Effects and Premiere Pro. I've been doing web development for a number of years now and currently manage a volleyball club website.</p>
+			<p>I am 20 years old and live in the north suburbs of Chicago. I drive to school Monday through Thursday and listen to music to dull my anger for the traffic. I got my first computer at the age of seven and have since been learning about computers. I play video games (PS4 > Xbox One) like Rainbow Six Siege, Call of Duty, Battlefield, and Rocket League. I'm more of a competitive player than casual. I have about six years of graphic design experience with Photoshop and Illustrator. I do graphic design as a hobby and sometimes make money on the side from it. Teaching myself video editing as well using After Effects and Premiere Pro. I've been doing web development for a number of years now and currently manage a volleyball club website. I have been to Rhodes, Greece as a young boy with my family and that is the only place I've been in Europe.</p>
 		</article>
 		<aside>
-			<!-- FIXME: Sidebar CSS -->
 			<figure>
 				<img src="./img/me.jpg" title="My Reaction" alt="WOW!" />
-				<!-- FIXME: Add real picture -->
 				<figcaption>WOW!</figcaption>
+			</figure>
+			<figure>
+				<div id="map">
+
+				</div>
 			</figure>
 		</aside>
 	</div>
@@ -48,6 +44,21 @@
 		<p>Created by Hidra Antar</p>
 		<p>Contact Info: <a href="mailto:hantar@hawk.iit.edu" title="Email Me!">hantar@hawk.iit.edu</a></p>
 	</footer>
+	<script>
+	function initMap() {
+        var rhodes = {lat: 36.4213783, lng: 28.1911773};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: rhodes,
+					mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+        var marker = new google.maps.Marker({
+          position: rhodes,
+          map: map
+        });
+  }
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmrooenf90OyGey9EoT4XW2C1UmvwS0b8&callback=initMap"></script>
 </body>
 
 </html>
